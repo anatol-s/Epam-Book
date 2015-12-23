@@ -7,11 +7,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Runner {
-    public static void run() throws IOException {
-        String wellcome = "GiftBox!\n" +
+    public static void main(String[] args) throws IOException {
+        String welcome = "GiftBox!\n" +
                 "Введите \"help\" для открытия справки.",
         goodbye = "Пока!";
-        System.out.printf("%s%n", wellcome);
+        System.out.printf("%s%n", welcome);
 
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             String line;

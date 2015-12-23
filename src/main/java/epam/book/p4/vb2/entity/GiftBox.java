@@ -32,7 +32,7 @@ public class GiftBox {
 
     public void add(Candy candy) {
         candyList.add(candy);
-        weight += candy.getWeigt();
+        weight += candy.getWeight();
     }
 
     public void sort(String value) {

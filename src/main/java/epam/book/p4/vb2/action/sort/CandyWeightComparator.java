@@ -8,6 +8,6 @@ public class CandyWeightComparator implements Comparator<Candy> {
 
     @Override
     public int compare(Candy candy1, Candy candy2) {
-        return candy1.getWeigt() - candy2.getWeigt();
+        return candy1.getWeight() - candy2.getWeight();
     }
 }

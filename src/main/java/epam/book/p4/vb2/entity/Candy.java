@@ -2,12 +2,12 @@ package epam.book.p4.vb2.entity;
 
 public class Candy {
     private String name;
-    private int weigt;
+    private int weight;
     private int sugar;
 
-    public Candy(String name, int weigt, int sugar) {
+    public Candy(String name, int weight, int sugar) {
         this.name = name;
-        this.weigt = weigt;
+        this.weight = weight;
         this.sugar = sugar;
     }
 
@@ -15,8 +15,8 @@ public class Candy {
         return name;
     }
 
-    public int getWeigt() {
-        return weigt;
+    public int getWeight() {
+        return weight;
     }
 
     public int getSugar() {
@@ -25,6 +25,6 @@ public class Candy {
 
     @Override
     public String toString() {
-        return String.format("Candy - Имя: %s, вес: %d, сахар: %d;", name, weigt, sugar);
+        return String.format("Candy - Имя: %s, вес: %d, сахар: %d;", name, weight, sugar);
     }
 }
